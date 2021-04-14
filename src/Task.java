@@ -26,12 +26,10 @@ public class Task {
         }
     }
 
-    // Добавляем информацию о сотруднике
     public static void addEmployee(List<Employee> list) {
         while (true) {
             System.out.println("Введите информацию о сотруднике (фамилия, имя, возраст, пол, образование, должность, отдел)");
             Scanner scanner = new Scanner(System.in);
-            //
             System.out.print("Введите фамилию ");
             String surname = scanner.next();
             System.out.print("Введите имю ");
@@ -64,7 +62,6 @@ public class Task {
         }
     }
 
-    // Меняем данные о сотруднике
     public static void changeData(List<Employee> list) {
         Scanner scanner = new Scanner(System.in);
         while (true) {

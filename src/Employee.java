@@ -58,7 +58,7 @@ public class Employee {
         return gender;
     }
 
-    public void setGender(String sex) {
+    public void setGender(String gender) {
         this.gender = gender;
     }
 
